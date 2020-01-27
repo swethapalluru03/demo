@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <parameter name="platform" value="chrome"/>
+  <test name="SmokeRegistration(failed)">
+    <classes>
+      <class name="testcases.GmailLoginTestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.GmailLoginTestCases -->
+    </classes>
+  </test> <!-- SmokeRegistration(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
